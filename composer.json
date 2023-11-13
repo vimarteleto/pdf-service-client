@@ -1,0 +1,23 @@
+{
+    "name": "vimarteleto/pdf-service-client",
+    "description": "Pacote para formatar e enviar arquivos para o fluxo de criação de PDF via serviço",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PDF\\Service\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vinicius Marteleto",
+            "email": "vinicius.marteleto@vexpenses.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "nesbot/carbon": "^2.53.1",
+        "illuminate/support": "^7.0|^8.0"
+    },
+    "minimum-stability": "stable"
+}
